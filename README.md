@@ -53,3 +53,7 @@ STI e ISM; Head Jessica; Jessica, Bob e Rudinei no ISM; períodos com ano; indic
 app/: interface e APIs. db/: PostgreSQL e criação automática do esquema. lib/: dados e segurança. tests/: testes funcionais. vercel.json: configuração da Vercel.
 
 Documentação oficial: https://vercel.com/docs/storage e https://nextjs.org/docs/app/getting-started/deploying
+
+## Excluir períodos
+
+Entre como administrador, abra Editar dados, selecione o período e clique em Excluir período selecionado. Confirme e clique em Salvar alterações. A exclusão remove apenas os dados desse período da equipe selecionada. É necessário manter pelo menos um período em cada equipe. Ao abrir o site, cada equipe começa no último período adicionado.

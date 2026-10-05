@@ -5,3 +5,5 @@
 .large-chart-scroll{overflow-x:auto;max-width:100%;scrollbar-color:#446eaa #131c27}.auth-modal{max-width:460px}.auth-modal .editor-body{padding-top:8px}.editor select{background:#0d1620;border:1px solid #354355;border-radius:7px;color:#f1f5fb;padding:11px;width:100%}.header-actions>button{font-size:12px}.goal-grid+.panel{margin-top:20px}.period select{max-width:250px}@media(max-width:560px){.header-actions>button{font-size:11px;padding:7px}.header-actions{gap:4px}.breadcrumb b{display:none}.edit-row>button{font-size:11px;padding:8px}.editor-footer{flex-wrap:wrap}}
 
 .auth-backdrop{z-index:70}
+
+.period-delete-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:14px 0}.danger-button{background:#33232c;border-color:#704350;color:#ffb8c5}.danger-button:hover{background:#4b2b38;border-color:#a65d71}.danger-button:disabled{cursor:not-allowed;opacity:.45}.period-delete-row small{font-size:12px;line-height:1.6}

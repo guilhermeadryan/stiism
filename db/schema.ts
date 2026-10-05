@@ -1,0 +1,6 @@
+export const schema = [
+ `CREATE TABLE IF NOT EXISTS hp_dashboard (id TEXT PRIMARY KEY, payload JSONB NOT NULL, revision INTEGER NOT NULL DEFAULT 1, updated TEXT NOT NULL)`,
+ `CREATE TABLE IF NOT EXISTS hp_audit (id BIGSERIAL PRIMARY KEY, description TEXT NOT NULL, created TEXT NOT NULL)`,
+ `CREATE TABLE IF NOT EXISTS hp_admin_sessions (id TEXT PRIMARY KEY, expires BIGINT NOT NULL)`,
+ `CREATE TABLE IF NOT EXISTS hp_auth_attempts (id TEXT PRIMARY KEY, count INTEGER NOT NULL, expires BIGINT NOT NULL)`
+];
